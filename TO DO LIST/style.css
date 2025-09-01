@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=swap');
+
+*{
+    margin: 0%;
+    padding:0% ;
+    box-sizing: border-box;
+    font-family: "Edu NSW ACT Hand Pre", cursive;
+}
+
+.container{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; */
+    border-radius: 15px;
+    background-color: #1e1e1e;
+    padding: 15px;
+    width: 500px;
+    
+    box-shadow: 0 5px 15px;
+    text-align: center;
+    
+    
+}
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #121212;
+    color: #fff;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+}
+
+.input-container{
+    width: 100% ;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+    display :contents ;
+    
+}
+
+.input-container input{
+    border: none;
+    outline: none;
+    padding :12px ;
+    margin-block: 12px;
+border-radius: 8px;
+font-size: 16px;
+}
+
+.input-container input[type = "text"]{
+    width: 70%;
+}
+
+.input-container input[type = "button"]{
+    background-color: black;
+    color:wheat;    
+    font-weight: 700;    
+    margin-left: 6px;
+    cursor: pointer;
+    padding: 13px ;
+}
+.input-container input[type = "button"]:hover{
+    background-color: wheat;
+    color: black;
+}
+
+.ul{
+    width : 100px ;
+    max-width: 450px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+}
+
+ul li {
+    font-weight: 900;
+    list-style-type: none;
+    cursor: pointer;
+    margin-block-end: 12px;
+    border-radius: 8px;
+    border: 0.125px solid #a19f9f;
+    padding : 6px 12px ;
+    background-color:purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.5s;    /*bgc change hoga after .5 sec */
+    
+}
+
+
+ul li:hover{
+    background-color: rgb(132, 134, 157);
+}
+
+ul li  p {
+    flex-grow: 1;
+    padding: 2px;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    font-size: 16px; 
+    /* background-color: none; */
+    font-weight: 600; 
+    cursor: pointer;
+    padding: 8px;
+}
+
+.btn:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+    color: #e20808;
+}
+.deleteBtn{
+    /* color: #e20808; */
+    
+    font-weight: 500;
+    /* background-color: white; */
+    border-radius: 112px;
+    color:rgb(235, 62, 62);
+}
+
+.editBtn{
+    color:#000000;
+    font-weight: 500;
+    /* background-color: white; */
+    border-radius: 112px;
+    
+    
+}
+
+input[type="button"]:hover,
+.btn:hover {
+    transform: scale(1) translateY(-2px);
+    box-shadow: 0 6px 18px rgba(255, 255, 255, 0.15);
+}
